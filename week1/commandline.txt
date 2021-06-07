@@ -1,0 +1,11 @@
+1- Use the $ mkdir command to create a new folder. To make that folder hidden, add a dot (.) at the beginning of the name, just like you would when renaming an existing folder to hide it.
+To create a new hidden file, add a dot (.) at the beginning of the name in the $ touch command.
+To display files and folders in the CLI use the $ cd command to go to the folder containing hidden items. Then, type: $ ls -a
+Hidden items with a dot (.) at the beginning of the name are listed.
+
+2- To create nested directories, like /c/Users/myusername/these/folders/are/just/for/fun use the command: $ mkdir -p /c/Users/myusername/these/folders/are/just/for/fun.
+The -p switch create parents directories.
+
+3- To append a message to a file, without a newline character use the command: $ echo -e "first message\nsecond message" 
+first message
+second message
