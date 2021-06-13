@@ -6,6 +6,5 @@ Hidden items with a dot (.) at the beginning of the name are listed.
 2- To create nested directories, like /c/Users/myusername/these/folders/are/just/for/fun use the command: $ mkdir -p /c/Users/myusername/these/folders/are/just/for/fun.
 The -p switch create parents directories.
 
-3- To append a message to a file, without a newline character use the command: $ echo -e "first message\nsecond message" 
-first message
-second message
+3- To append a message to a file, without a newline character use the command: $ echo "text" >> filename 
+
