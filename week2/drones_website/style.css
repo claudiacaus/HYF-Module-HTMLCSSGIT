@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Commissioner:wght@700&display=swap');
+@font-face {
+    font-family: 'KlavikaRegular';
+    src: url('/path/to/klavika-regular-webfont.eot');
+    src: local('KlavikaRegular'), url('/path/to/klavika-regular-webfont.woff') format('woff'), url('/path/to/klavika-regular-webfont.ttf') format('truetype'), url('/path/to/klavika-regular-webfont.svg#webfontiYJyHRas') format('svg');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #9bc2f6, #9ccbf7, #a1d3f7, #a8daf7, #b1e1f6, #b4e2f2, #b8e3ee, #bce3ea, #badee2, #b8d8da, #b6d3d2, #b4cdcb);
+    justify-content: center;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5em;
+    text-shadow: 4px 4px #467bad;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: KlavikaRegular;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grid-item {
+    width: 23%;
+    height: 500px;
+    margin: 0.5%;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    align-content: space-between;
+    overflow: hidden;
+    content: inherit;
+}
+
+.grid-item img {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+li img {
+    max-width: 100%;
+}
+
+.grid-item:first-child {
+    width: 47%;
+}
+
+.grid-item:first-child img {
+    max-width: 65%;
+}
