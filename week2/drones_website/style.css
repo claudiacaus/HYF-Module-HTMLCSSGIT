@@ -71,13 +71,12 @@ ul {
 .grid-item {
     width: 23%;
     height: 480px;
-    margin: 0.5%;
+    margin: 0.6%;
     text-align: center;
     background-color: white;
     display: inline-block;
     align-content: space-between;
     overflow: hidden;
-    content: inherit;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -107,4 +106,15 @@ li img {
 
 .grid-item:first-child p {
     padding-top: 0;
+}
+
+.grid-float {
+    float: left;
+    clear: both;
+}
+
+.grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
