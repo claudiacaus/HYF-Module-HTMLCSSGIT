@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Commissioner:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Commissioner:wght@700&family=Secular+One&display=swap');
 @font-face {
     font-family: 'KlavikaRegular';
     src: url('/path/to/klavika-regular-webfont.eot');
@@ -22,21 +22,46 @@ main {
 }
 
 h1 {
-    font-family: 'Audiowide', cursive;
-    font-family: 'Commissioner', sans-serif;
+    font-family: 'Secular One', sans-serif;
     text-align: center;
     text-transform: uppercase;
     font-size: 5em;
-    text-shadow: 4px 4px #467bad;
+    letter-spacing: 0.1em;
+    color: #5caedd;
+    text-shadow: 4px 4px #34587a;
     margin-bottom: 20px;
+    margin-top: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3d73a7;
 }
 
 h2 {
-    font-family: KlavikaRegular;
+    font-family: 'Commissioner', sans-serif;
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: #34587a;
+    text-shadow: 2px 2px #83b0da;
+    letter-spacing: 0.01em;
+}
+
+h3 {
+    font-family: 'Commissioner', sans-serif;
+    font-size: 1.35em;
+    letter-spacing: 0.001em;
+    padding-bottom: 10px;
+    color: rgb(185, 50, 84);
+    text-shadow: 1px 1px #0d1011;
+}
+
+p {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Commissioner', sans-serif;
+    padding: 10px;
+    padding-top: 35px;
+    text-align: justify;
+    text-indent: 25px;
 }
 
 ul {
@@ -45,7 +70,7 @@ ul {
 
 .grid-item {
     width: 23%;
-    height: 500px;
+    height: 480px;
     margin: 0.5%;
     text-align: center;
     background-color: white;
@@ -53,6 +78,11 @@ ul {
     align-content: space-between;
     overflow: hidden;
     content: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px #83b0da;
 }
 
 .grid-item img {
@@ -68,8 +98,13 @@ li img {
 
 .grid-item:first-child {
     width: 47%;
+    padding: auto;
 }
 
 .grid-item:first-child img {
-    max-width: 65%;
+    max-width: 60%;
+}
+
+.grid-item:first-child p {
+    padding-top: 0;
 }
