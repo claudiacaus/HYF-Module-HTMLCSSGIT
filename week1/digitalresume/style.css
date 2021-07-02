@@ -32,7 +32,12 @@
     .left_side {
         position: relative;
         background-color: #003147;
-        padding: 40px;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-right: 40px;
+        width: 385px;
     }
     
     .profile {
@@ -42,6 +47,7 @@
         align-items: center;
         padding-bottom: 20px;
         overflow: auto;
+        width: 385px;
     }
     
     .profile .picture {
@@ -50,22 +56,22 @@
     }
     
     .profile .picture img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-color: white;
-        border-width: 2px;
+        display: flex;
+        margin: 0 auto;
+        margin-left: 30px;
+        padding-left: 30px;
     }
     
     img {
         border-radius: 50%;
+        max-width: 200px;
     }
     
     h2 {
         color: white;
         font-size: 1.5em;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 30px;
+        margin-bottom: 15px;
         text-transform: uppercase;
         text-align: center;
         font-weight: 500;
@@ -75,6 +81,7 @@
     
     .contactInfo {
         padding-top: 0px;
+        text-align: left;
     }
     
     ul {
@@ -86,13 +93,28 @@
         list-style: none;
         margin: 5px 0;
         cursor: pointer;
+        text-align: left;
+    }
+    
+    li.last {
+        padding-bottom: 20px;
+    }
+    
+    li.first {
+        padding-top: 20px;
+    }
+    
+    hr {
+        height: 1px;
+        border: 0;
+        border-top: 1px dotted #90c2eb;
     }
     
     .icon {
         display: inline-block;
         width: 30px;
         font-size: 18px;
-        color: #4b93b4;
+        color: #90c2eb;
     }
     
     span {
@@ -120,7 +142,7 @@
         margin-bottom: 30px;
         text-transform: uppercase;
         text-align: center;
-        font-weight: 600;
+        font-weight: 700;
         letter-spacing: 1px;
         color: #003147;
     }
@@ -160,5 +182,9 @@
     }
     
     .hb {
+        text-align: center;
+    }
+    
+    .hobbies ul li {
         text-align: center;
     }
