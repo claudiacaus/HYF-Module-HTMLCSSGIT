@@ -65,6 +65,7 @@
     img {
         border-radius: 50%;
         max-width: 200px;
+        box-shadow: 2px 2px 2px #0e0d0d;
     }
     
     h2 {
